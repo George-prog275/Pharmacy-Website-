@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Products Catalog</title>
+    </head>
+    <body>
+        <header>
+            <h1>Our Products</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="products">
+                <div class="product">
+                                    <h4>Ibuprofen</h4>
+                    <img
+                        src="product1.jpg"
+                        style="width: 150px"
+                        alt="Ibuprofen"
+                    />
+                    <p>
+                        Ibuprofen is a nonsteroidal anti-inflammatory drug
+                        (NSAID). It works by reducing hormones that cause
+                        inflammation and pain in the body.
+                    </p>
+                    <p class="price">KES1000</p>
+                    <button
+                        class="buy-button"
+                        data-product="Ibuprofen"
+                        data-price="KES1000"
+                    >
+                        Buy Now
+                    </button>
+                    <h4>Naprosyn</h4>
+                    <img
+                        src="product2.jpg"
+                        style="width: 150px"
+                        alt="Product 2"
+                    />
+                    <p>
+                        Naprosyn is used to treat pain or inflammation caused by
+                        conditions such as rheumatoid arthritis, osteoarthritis,
+                        ankylosing spondylitis, tendinitis, bursitis, gout, or
+                        menstrual cramps.
+                    </p>
+                    <p class="price">KES 2500</p>
+                    <button
+                        class="buy-button"
+                        data-product="Naprosyn"
+                        data-price="KES 2500"
+                    >
+                        Buy Now
+                    </button>
+                                        <h4>Advil Migraine</h4>
+                    <img
+                        src="product4.jpg"
+                        style="width: 150px"
+                        alt="Advil Migraine"
+                    />
+                    <p>
+                        Advil Migraine is used to reduce fever and treat pain or
+                        inflammation caused by many conditions such as headache,
+                        toothache, back pain, arthritis, menstrual cramps, or
+                        minor injury. Advil Migraine is used in adults and
+                        children who are at least 6 months old.
+                    </p>
+                    <p class="price">KES 2000</p>
+                    <button
+                        class="buy-button"
+                        data-product="Advil Migraine"
+                        data-price="KES 3000"
+                    >
+                        Buy Now
+                    </button>
+                </div>
+                <!-- Repeat the above product structure for each product -->
+            </section>
+            <section id="cart">
+                <h4>Shopping Cart</h4>
+                <ul id="cart-items">
+                    <!-- Cart items will be displayed here after clicking "Buy Now" -->
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2023 Copyright. Salama Pharmaceuticals.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

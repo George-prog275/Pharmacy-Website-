@@ -1,0 +1,118 @@
+/* Add your general styles here */
+.product {
+    display: grid;
+    width: 30px;
+    padding: 30px;
+    text-align: center;
+    margin: 50px;
+    border: none;
+    /*background-color: #fff;*/
+}
+
+.product img {
+    width: 30em;
+    height: 10em;
+    margin: 30px 0 10px 0;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.buy-button {
+    background-color: #0078d4;
+    color: white;
+    border: solid;
+    border-radius: 50px;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 5px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #0078d4;
+}
+
+body {
+    font-family:'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #0078d4;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #0078d4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Basic styling for your website */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: white;
+}
+
+header {
+    background-color: #5f1507;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #5f1507;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Add your specific styling here */
